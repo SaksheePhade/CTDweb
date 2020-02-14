@@ -1,0 +1,221 @@
+.content{
+    /* border: 1px  solid white; */
+   /*-webkit-box-shadow: 5px 5px 23px 4px rgba(117,58,136,0.89); 
+     box-shadow: 5px 5px 23px 4px rgba(117,58,136,0.89);*/
+    border-radius: 20px;
+    padding: 50px;
+    padding-top: 20px;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/* footer */
+
+ 
+h3{
+ color:white;
+ font-size: 25px;
+ text-align: center;
+ padding-top: 5px;
+ font-family: 'Belleza', sans-serif;
+}
+.layout{
+    margin-top:20px;
+    /* border-radius: 20px; */
+    /* box-shadow: 2px 5px 5px black; */
+    margin-top:25px;
+    margin-bottom:10px;
+    color:white;
+}
+
+/* #info
+{
+   text-align:center;
+   max-width: 1500px; 
+} */
+
+.container-fluid{
+    padding:0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top:7px;
+    
+}
+h2{
+  text-align: center;
+}
+.contacts1{
+    width: 100px;
+    height: auto;
+    margin-left: 200px;
+
+}
+
+.fa {
+  padding:20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+}
+
+hr{
+    align-self: center;
+    width:70%;
+    background:white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+} 
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ff1a75;
+  color: white;
+}
+
+.contacts2{
+    width: 100px;
+    height: auto;
+    margin-left: 200px;
+
+}
+
+.text{
+    text-align: center;
+    margin-top:7px;
+    margin-bottom:7px;
+    /* text-shadow:1px 2px grey; */
+}
+
+
+@media only screen and (max-width: 600px) {
+  .map{
+    border:0;
+    height: 20vh;
+    width: 100vw;
+  }
+  #center
+  {
+    text-align: center;
+    padding-left: 5px;
+  }
+  #car{
+    width: 400px;
+  }
+  .card-img-top{
+    height: 40vh;
+  }
+  #sponsor
+  {
+     text-align: center;
+     margin-bottom: 30px;
+  }
+  #mod {
+    text-align: center;
+   }
+
+  #home{
+    height: 100vh;
+    padding-top: 50px;
+  }
+  #mob{
+    text-align: center;
+  }
+  .card{
+    margin-bottom: 3vh;
+  }
+#logo
+  {
+     margin-top: 0px;
+     margin-bottom: 0px;
+  }
+  #text{
+      font-size: 43px;
+  }
+  #seteam{
+    height: fit-content;
+  }
+ 
+
+
+}
+@media (min-width:1025px){
+  .map{
+    border:0;
+    height: 50vh;
+    width: 45vw;
+  }
+  .card-img-top{
+    height: 40vh;
+  }
+  #contact{
+    padding-right: 150px;
+  }
+  #center
+  {
+    padding-left: 200px;
+  }
+
+  #car{
+  width: 1100;
+  height: 500;
+  }
+
+  #mob{
+    text-align: left;
+  }
+  #r8{
+     text-align: center;
+  }
+  #top{
+    margin-top: 30px;
+  }
+  #text{
+    font-size: 50px;
+  }
+  #seteam{
+    height: 10vh;
+    padding-bottom: 44vh;
+  }
+  #teteam{
+    padding-top: 8vh;
+  }
+  #te{
+    margin-bottom: 40px;
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=Belleza&display=swap');
+h1,h2{
+  font-family: 'Belleza', sans-serif;
+}
+
+
+/* for team */
+/* 5 Columns */
+
+.col-half-offset{
+  margin-left:4.166666667%
+}

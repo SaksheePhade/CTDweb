@@ -1,0 +1,11 @@
+.owl-carousel .owl-stage {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+}
