@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Credenz Tech Dayz</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="./js/wow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="./css/content.css"/>
+    <link rel="stylesheet" href="./css/preloader.css"/>
+    <link rel="stylesheet" href="./css/animate.css"/>
+    <link rel="stylesheet" href="./css/nav.css"/>
+    <link rel="stylesheet" href="./css/modal.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <style>
+        .container-fluid{
+            padding: 0;
+        }
+        
+        .full::-webkit-scrollbar{
+            display:none;
+        }
+
+        .full{
+            -ms-overflow-style:none;
+        }
+
+    </style>
+</head>
+
+<body class="hero-anime full" onload="myFunction()">	
+    
+    <div class="loader-wrapper">
+        <div class="sk-folding-cube" style="position:relative;top:45%;">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+          </div>
+    </div>
+    
+	<div class="container-fluid" style="background-color: #100428;" >
+        <div class="navigation-wrap bg-light start-header start_header_half start-style" id="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <!-- <a class="navbar-brand" href="http://pictieee.in/" target="_blank"><img src="./images//logo/ctdlogoblack.png"></a>	 -->
+                            
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link" href="#your-element-selector">Home</a>
+                                    </li>
+                                    <div class="dropdown">
+                                       <button class=" btn btn-light nav-item pl-4 pl-md-0 ml-0 ml-md-4" style="color: #212121 !important;
+                                       font-weight: 500;text-align:center;">About Us</button>
+                                            <div class="dropdown-content" style="margin-left: 25px;">
+                                                <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> -->
+                                                    <a class="nav-link" href="#CTDD">CTD</a>
+                                                
+                                                <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> -->
+                                                    <a class="nav-link" href="#IEEE">IEEE</a>
+                                                
+                                                <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> -->
+                                                    <a class="nav-link" href="#PISB">PISB</a>
+                                                
+                                                <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> -->
+                                                    <a class="nav-link" href="#PING">PING</a>
+                                                
+                                            </div>
+                                    </div>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" id="myBtn">Seminars</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="./event.html">Events</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> 
+                                        <a class="nav-link" href="./teamm.html">Our Team</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> 
+                                        <a class="nav-link" href="./index.html#Contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </nav>		
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            <div id="your-element-selector" style="vertical-align: middle;text-align: center;height: 100vh;" class="container-fluid">
+                
+    
+                <img class="img1" style="max-width: 100%;margin-top: 50px;" src="./images/logo/ctdlogowhite.png">
+                <section class="portfolio-experiment" style="text-align: center;">
+                    <a href="./event.html"  >
+                      <span class="text" style="color: white;" >Events </span>
+                      <span class="line -right"></span>
+                      <span class="line -top"></span>
+                      <span class="line -left"></span>
+                      <span class="line -bottom"></span>
+                    </a>
+                  </section>
+
+                <br><br><br>
+                <br>
+            </div>
+        <br>
+            <!-- NOTICE SECTION -->
+
+
+
+
+
+<!-- NOTICE SECTION -->
+        <!-- <button id="myBtn">Notices</button> -->
+     
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+               <h2><b>UPCOMING EVENTS</b></h2>
+              <p>
+                Seminar on <b>Applied Machine Learning</b> hosted by <br>
+                Ms. Priyanka Kasture <br>
+                Founder,
+                <b> ML INDIA & QAIL.</b> <br>
+                Date: 17 February, 2020 <br>
+                Venue: Computer Seminar Hall <br>
+                Time: 4:00pm
+              </p><br>
+              <a href="./seminar.html" style="text-align: center;"><button style="width: 150px;" class="btn btn-info btn-lg">Seminars</button></a>
+            </div>
+          </div>
+     
+    <!-- About Us #1b061f,#da73fa-->
+        <div class="container-fluid" style="background-image: linear-gradient(#100428,#a986f2);">
+            <div id="about_us" class="container-fluid" style=" color: white;text-align: justify;">
+                <div  style="margin-top: 30px; margin-bottom: 30px;" id="about_us"><h1 style="color: white;">ABOUT US</h1></div>
+      
+               
+            <div  class="container-fluid" >
+                <div class="container layout content" id="CTDD">
+                    <div class="row" >
+                        <div class="col-lg" style="color: white;text-align: justify;">
+                            <h2 style="color: white;font-size: 50px;margin-top: 50px;">CREDENZ TECH DAYZ (CTD)</h2>
+                            <p style="text-align: justify;" class="description">
+                                Credenz Tech Dayz(CTD) is organized by the PICT IEEE Student Branch annually,
+                                 in the even semester, to coincide with the IEEE membership drive. CTD brings with it a gusto 
+                                 that is portrayed in the form of seminars by esteemed industrialists. These seminars provide a platform wherein 
+                                 the students are exposed to the latest innovations in technology. They also get an opportunity to interact with
+                                  experts from the industry, thus giving them further insights into and helping them to develop their skills in 
+                                  the technical field. Many seminars were organized as a part of CTD’19. Experts from companies like IDEA Cellular,
+                                   Airtight Networks, Tech Mahindra shared their knowledge with us. The seminars on “Robotics”, “Android App Studio” and “Gaming and Related Technologies” drew deep interest from the students, while those on “Wifi and IoT” and “Telecommunication unfolding” were also immensely appreciated. The seminars on areas like “3D-printing” and “Big Data” shed light on concepts heard by all but known to very few. A seminar on “start-up” was useful for learning more about how a business is initiated and works.
+                            </p>
+                        </div>
+                    </div>	
+                </div>
+                <div class="container layout content"  id="IEEE">
+                    <div class="row" >
+                        <div class="col-lg" style="color: white;text-align: justify;">
+                            <h2 style="color:white;font-size: 50px; margin-top: 50px;">Institute of Electrical and Electronics Engineering (IEEE)</h2>
+                            <p style="text-align: justify;" class="description">
+                                The Institute of Electrical and Electronics Engineering (IEEE) is an international organization, which has been the nexus for propagating scientific expertise among people all over the globe. IEEE continues to attract students, faculty and professionals from various fields all around the world and is committed to incorporate diversity in thoughts which is essential for scientific development. IEEE serves as a hub to many engineering students and faculty members for expressing their technical acuity to the world and has always been at the forefront of the technical revolution.                        </p>
+                             <p  style="text-align: justify;" class="description"> The IEEE provides learning opportunities within the engineering sciences, research, and technology. An IEEE Student Branch provides opportunities to meet and learn from fellow IEEE Student and Graduate Student Members and engage with professional IEEE members locally. An active IEEE Student Branch can be one of the most positive elements of your academic career, offering programs, activities, and professional networking opportunities that build critical skills outside of the classroom. IEEE currently has Student Branches at thousands of universities and colleges in hundreds of countries throughout the world.</p>   
+                            </div>
+                    </div>
+                </div>
+    
+                <div class="container layout content"  id="PISB">
+                    <div class="row" >
+                        <div class="col-lg" style="color: white;text-align: justify;">
+                            <h2 style="color:white;font-size: 50px;margin-top: 50px;">PICT IEEE Student Branch (PISB)</h2>
+                            <p style="text-align: justify;" class="description">
+                                PISB was established in the year 1998 with the aim of inculcating the sense of technical awareness amongst its student members. PISB endeavers to escalate the knowledge and trends in the diverse field of technologies amongst its members. PISB upholds two major events every year, Credenz and Credenz Tech Dayz with the first one being conducted in the even semester and the second one in the odd semester. PISB is also marked by its Women in Engineering (WIE) chapter, an initiative for impowerment of women in the technical domain.
+                            </p>
+                            <p style="text-align: justify;" class="description">PISB has been awarded as the best student branch of IEEE pune section.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container layout content"  id="PING">
+                    <div class="row" >
+                        <div class="col-lg" style="color: white;">
+                            <h2 style="color: white;margin-top: 50px;" id="text" >PICT IEEE NEWSLETTER GROUP (P.I.N.G.)</h2>
+                            <p style="text-align: justify;" class="description">
+                                P.I.N.G. (PICT IEEE Newsletter Group) is the official technical magazine of PISB. P.I.N.G. serves as a platform for individuals to portray their technical ingenuity. It highlights articles on cutting-edge technologies from technocrats all around the globe including students, industrialists and faculty members. It also features interviews of distinguished personalities in various technical domains.
+                            P.I.N.G. publishes articles from all domains of scientific and technical progressions, from industrial experts to academia; these submissions provide readers with various out-of-the-box ideas and thoughts that can revamp contemporary technology
+                            </p>
+                            <p style="text-align: justify;" class="description">
+                                P.I.N.G. (PICT IEEE Newsletter Group) is the official technical magazine of PISB. P.I.N.G. serves as a platform for individuals to portray their technical ingenuity. It highlights articles on cutting-edge technologies from technocrats all around the globe including students, industrialists and faculty members. It also features interviews of distinguished personalities in various technical domains. 
+                            </p>
+                        </div>
+                    </div>	
+                </div>
+            </div>
+        </div>
+    
+            <!-- sponsors -->
+            <h2 style="color: white;font-size: 50px;margin-top: 50px;">CREDENZ SPONSORS</h2>
+            <div class="container"  id="r8">
+                <br>
+                <!-- first row -->
+                <div class="row"> 
+                    <div class="col-sm-3" id="sponsor" >
+                        <img style="border-radius: 20rem;" src="./images/sponsors/finiq2.png" alt="FinIQ">
+                        <br>
+                        <h3 id="h3">Title Sponsor</h3>
+                    </div>
+                    <div class="col-sm-3" id="sponsor">
+                        <img style="border-radius: 20rem;" src="./images/sponsors/ims2.jpg" alt="IMS">
+                        <br>
+                        <h3>Educational Partner</h3>
+                    </div>
+                    <div class="col-sm-3" id="sponsor">
+                        <img style="border-radius: 20rem;" src="./images/sponsors/Byju's2.jpg" alt="Byju's">
+                        <br>
+                        <h3 id="h3">Co-Sponsor</h3>
+                    </div>
+                    <div class="col-sm-3" id="sponsor">
+                        <img style="border-radius: 20rem;" src="./images/sponsors/c3.jpg" alt="collegepond">
+                        <br>
+                        <h3>Educational Partner</h3>
+                    </div>
+                </div>
+                <!-- last row -->
+                <div class="row" id="top">
+                    <div class="col-sm-3" id="sponsor">
+                        <img style="border-radius: 20rem;" src="./images/sponsors/InterviewMocha.jpg" alt="InterviewMocha">
+                        <br>
+                        <h3 id="h3" >Co-Sponsor</h3>
+                    </div>         
+                    <div class="col-sm-3" id="sponsor">
+                        <img style="border-radius: 20rem;" src="./images/sponsors/Campus Times Pune.jpg" alt="Campus pune times">
+                        <br>
+                        <h3>Online Media Partner</h3>
+                    </div>
+                    <div class="col-sm-3" id="sponsor">
+                        <img style="border-radius: 20rem;" src="./images/sponsors/Aarnell.jpg" alt="Aarnell">
+                        <br>
+                        <h3>Study Abroad Partner</h3>
+                    </div>
+                    <div class="col-sm-3" id="sponsor">
+                        <img style="border-radius: 20rem;" src="./images/sponsors/Monster.jpg" alt="Kaggle_logo">
+                        <br>
+                        <h3>Energy Partner</h3>
+                    </div>
+                </div><br><br><br><br>
+             </div>
+            
+        </div>  
+        
+        <!-- footer -->
+       
+        <div class="container-fluid" id="contact_us" style="color:black;background-color: white;">
+            <br>
+            <br>
+            <div class="row" id="Contact" style="text-align: center ;color:black;">
+                <div class="col-lg-6" style="color:black;">
+                            <h1 style="text-align:center;">LOCATION</h1>
+                            <p><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.576189725421!2d73.84864491471966!3d18.457542087445734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eac85230ba47%3A0x871eddd0a8a0a108!2sSCTR&#39;S%20Pune%20Institute%20of%20Computer%20Technology!5e0!3m2!1sen!2sin!4v1580996120113!5m2!1sen!2sin" frameborder="0"  allowfullscreen=""></iframe></p>
+                </div>
+                <div class="col-lg-6 " style="margin-left: auto;margin-right: auto; padding-bottom: 30px;color:black;">
+                    <div style="text-align: justify; margin-left: auto;margin-right: auto;" id="center">
+                        <h1 style="padding-top: 10px; text-transform: uppercase;" id="contact">Contact Us</h1>
+                        <h5 style="margin-top: 50px;" >Hritik Zutshi: +91 7701864159</h5>
+                        <h5 >Bhushan Chougule:+91 8605200014</h5>
+                        <h5 style="margin-right: 5px;">Email id: <a href="mailto:<nowiki>contact@credenz.info">contact@credenz.info</a></h5>
+                        </div>
+                    <hr>
+                    <h5>FOLLOW US</h5>
+                    <a href="https://www.facebook.com/pictieee/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/pisbcredenz?lang=en" class="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com/company/pisbieee" class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com/pisbcredenz/" class="fa fa-instagram"></a>
+                    <hr>
+                 </div> 
+         </div>
+            <div class="container-fluid" style="text-align: center;background-color: #a986f2;">
+                <div class="container-fluid collapse" style="text-align:center;background-color: #a986f2;color: black;padding-bottom:00px; padding-left: 25px; padding-right: 20px;margin-bottom: 10px;" id="webteam">
+                    <br>
+                    <h1>MEET THE WEBDEV TEAM</h1><br>
+                    <!-- <div class="row padding"> -->
+                        <div class="row">
+                        <div  class="col-md-2" >
+                            <div class="card" style="height: 65vh;">
+                                <img class="card-img-top" src="./images/team/yash.jpeg">
+                                <div class="card-body">
+                                    <h4 class="card-title">YASH <br> SONAR</h1>
+                                    <a type="button" href="https://www.linkedin.com/in/yash-sonar-b89265176?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCUX20GyqQRKe8Ug6uZvtKg%3D%3D" class="btn btn-outline-secondary">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-half-offset">
+                            <div class="card" style="height: 65vh;">
+                                <img class="card-img-top" src="./images/team/krishnakant.jpeg">
+                                <div class="card-body">
+                                    <h4 class="card-title" style="font-size: 22px;">KRISHNAKANT BHUTADA</h1>
+                                    <a type="button" href="https://www.linkedin.com/in/krishnakant-bhutada-a449551a1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B23PfJnxuQH2lWG%2FLwyHdkw%3D%3D" class="btn btn-outline-secondary">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-half-offset"> 
+                            <div class="card" style="height: 65vh;">
+                                <img class="card-img-top" src="./images/team/f6.jpg">
+                                <div class="card-body">
+                                    <h4 class="card-title">FATEMA KATAWALA</h1>
+                                    <a type="button" href="https://www.linkedin.com/in/fatema-katawala-2b99451a1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvdA%2FV5znRpWcjRaBRwQVlA%3D%3D" class="btn btn-outline-secondary">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-half-offset">
+                            <div class="card" style="height: 65vh;">
+                                <img class="card-img-top" src="./images/team/rutuja.jpeg">
+                                <div class="card-body">
+                                    <h4 class="card-title">RUTUJA <br> KAWADE</h1>
+                                    <a type="button" href="https://www.linkedin.com/in/rutuja-kawade-6b7a8a171?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2fWmzsAcTDiSW2X0qvd6zQ%3D%3D" class="btn btn-outline-secondary">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-half-offset">
+                            <div class="card" style="height: 65vh;">
+                                <img class="card-img-top" src="./images/team/sakshee.jpg">
+                                <div class="card-body">
+                                    <h4 class="card-title">SAKSHEE <br> PHADE</h1>
+                                    <a type="button" href="https://www.linkedin.com/in/sakshee-phade-28561316b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BpkD8cCzFToKdpxXwgwLOkQ%3D%3D" class="btn btn-outline-secondary">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="container-fluid" style="background-color: #a986f2;">
+                    <div style="text-align: center;" style="margin-bottom: 0em;padding-bottom: 0em;"><br>
+                        <p style="font-family: 'Belleza', sans-serif;"><b>Designed and made with <span style="color: #100428; font-size: 20px;">&#10084</span> by SE Team at PISB.</b></p>
+                        <button id="button" onclick="toEND()" class="btn  develop button" style="margin-bottom: 30px; background-color: #100428; color:whitesmoke" data-toggle="collapse" data-target="#webteam">WEBDEV TEAM</button>
+                    </div>
+                </div>
+                <div id="end"></div>
+            </div>
+        </div>
+<script src="js/three.r95.min.js"></script>
+<script src="js/vanta.net.min.js"></script>
+<script>
+    VANTA.NET({
+  el: "#your-element-selector",
+  mouseControls: true,
+  touchControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x8d69d4,
+  backgroundColor: 0xb021b,
+  points: 11.00,
+  maxDistance: 19.00
+})
+    </script>
+<script src="js/jquery.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="./js/script.js"></script>
+<script src="./js/preloader.js"></script>
+<script src="./js/scriptjq.js"></script>
+
+</body>
+</html>

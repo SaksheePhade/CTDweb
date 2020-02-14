@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Credenz Tech Dayz</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="./js/wow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/nav.css"/>
+    <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="./css/content.css"/>
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="js/modal.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <style>
+        .container-fluid{
+            padding: 0;
+        }
+        
+        .full::-webkit-scrollbar{
+            display:none;
+        }
+
+        .full{
+            -ms-overflow-style:none;
+        }
+        
+        .parallax {
+          /* The image used */
+          background-image: url("./images/purple.jpg");
+
+          /* Set a specific height */
+          min-height: 500px; 
+
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+
+    </style>
+</head>
+<body class="hero-anime full" >	
+
+  <div class="parallax">
+
+	<div class="container-fluid" >
+    <div class="navigation-wrap bg-light start-header start_header_half start-style" id="nav">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="navbar navbar-expand-md navbar-light">
+                      <!-- <a class="navbar-brand" href="http://pictieee.in/" target="_blank"><img src="./images//logo/ctdlogoblack.png"></a>	 -->
+                      
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto py-4 py-md-0">
+                              <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                  <a class="nav-link" href="./index.html#Home">Home</a>
+                              </li>
+                              <div class="dropdown">
+                                 <button class=" btn btn-light nav-item pl-4 pl-md-0 ml-0 ml-md-4" style="color: #212121 !important;
+                                 font-weight: 500;text-align:center;">About Us</button>
+                                      <div class="dropdown-content" style="margin-left: 25px;">
+                                          <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> -->
+                                              <a class="nav-link" href="./index.html#CTDD">CTD</a>
+                                          
+                                          <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> -->
+                                              <a class="nav-link" href="./index.html#IEEE">IEEE</a>
+                                          
+                                          <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> -->
+                                              <a class="nav-link" href="./index.html#PISB">PISB</a>
+                                          
+                                          <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> -->
+                                              <a class="nav-link" href="./index.html#PING">PING</a>
+                                          
+                                       </div>
+                               </div>
+                               <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                <a class="nav-link" id="myBtn" >Seminars</a>
+                              </li>
+                              <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                  <a class="nav-link" href="./event.html">Events</a>
+                              </li>
+                              <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                  <a class="nav-link" href="./teamm.html">Our Team</a>
+                              </li>
+                              <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> 
+                                  <a class="nav-link" href="./index.html#Contact">Contact</a>
+                              </li>
+                          </ul>
+                      </div>
+                      
+                  </nav>		
+              </div>
+          </div>
+      </div>
+  </div>    
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+       <h2><b>UPCOMING EVENTS</b></h2>
+      <p>
+        Seminar on <b>Applied Machine Learning</b> hosted by <br>
+        Ms. Priyanka Kasture <br>
+        Founder,
+        <b> ML INDIA & QAIL.</b> <br>
+        Date: 17 February, 2020 <br>
+        Venue: Computer Seminar Hall <br>
+        Time: 4:00pm
+      </p><br>
+      <a href="./seminar.html" style="text-align: center;"><button style="width: 150px;" class="btn btn-info btn-lg">Seminars</button></a>
+    </div>
+  </div>
+
+     <br><br><br><br><br>
+     <h1 style="color: white">Events</h1>
+    <hr><br>
+   <!-- courosel -->
+   <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="text-align: center;" >
+        <img id="car" src="./images/event/events1.jpeg" alt="Los Angeles" style="align-content: center;" width="1100" height="500" >
+      </div>
+      <div class="carousel-item"  style="text-align: center;" >
+        <img id="car" src="./images/event/events2.jpeg" alt="Chicago"  width="1100" height="500" >
+      </div>
+      <div class="carousel-item"  style="text-align: center;" >
+        <img id="car" src="./images/event/events3.jpeg" alt="New York"  width="1100" height="500">
+      </div>
+      <div class="carousel-item"  style="text-align: center;" >
+        <img id="car" src="./images/event/events4.jpeg" alt="New York"  width="1100" height="500">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+<br>
+  <hr>
+    <!-- #054A91 padding-top: 8vh-->
+    <div>
+        <div class="container" style="color: white;;padding-bottom: 8vh" id="CTD" >
+           
+                <div class="row" style="margin-bottom: 40px;" >
+                    <div class="col-lg-4 content layout" style=" margin-top: 50px;text-align: center;">
+                        <img style="margin-left: auto ;margin-right: auto;" src="./images/logo/UNRAVEL (2).png">
+                    </div>
+                    <div class="col-lg-8" style="margin-top: 0px;" >
+                    	<br>
+                    	<br>
+                    	<br>
+                        <h2 style="color: white;font-size: 50px;padding-left: auto;padding-right: auto;margin-left: auto;margin-right: auto;text-align: center;">Unravel</h2>
+                      <div>                        
+                          <p id="mob" class="description" > 
+                            Every one as a little kid has fantasized to be a solver, a detective, a spy cop saving the world!Hence, turn on your wisdom to join the amazing treasure hunt.
+
+                          PISB presents UNRAVEL!
+                          One of the most interesting and brainstorming games during the Credenz Tech Dayz!
+                          <br>
+                          A game with series of mysteries,
+                          Even if you start easy, it needs the wise to reach the hidden clues and a smart brain to decode them.
+                          The riddles and puzzles based on math equations, trending world of entertainment will make your familiar thoughts go witty.
+                          Every hint is an answer in itself, it gets deeper and dark as you unveil the secrets.
+                          The more you win, the more you get lost
+                          But the triumph of the hunt is worth the cost!
+                          Therefore, get on your toes and gather the courage to explore a hunt you have never experienced before!
+                          Turn up to be a spy, decode the clues, unearth the evidences and unevil the dark mystery which will lead you to the treasure hidden.
+                          <br>
+                          Team up into a team of maximum 3 members and the fastest team gets to be the winner and will be rewarded a cash prize of Rs.1000/-
+                          <br> <br>
+                          Join us for this treasure hunt <br>
+                          There is no time to spare! <br>
+                          There are so many clues to hunt <br>
+                          So you must play fair! <br>
+                          <br>
+                          Date: 12th March, 2020.
+                          <br>
+                          Registration Fee:<br>
+                          Participate in a team of two.<br>
+                          IEEE Members: ₹30/-<br>
+                          Non-IEEE Members: ₹50/-
+                          Contact: <br>
+                          Durvesh Malpure: +91 9834570868 <br>
+                          Onkar Litake: +91 9881149694 </p>
+                          </p>
+                        </p>
+                      </div>
+                    <div>
+                      <!-- Trigger the modal with a button -->
+                      <div id="mod">
+                      <button  type="button" style="background-color: rebeccapurple" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Team Members</button>
+                      </div>
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal1" role="dialog">
+                        <div class="modal-dialog"> 
+                          <!-- Modal content-->
+                          <div class="modal-content" style="padding: 0px;">
+                            <div class="modal-header" style="background-color: rebeccapurple; border: 0px;">
+                              <h4 class="modal-title"> Unravel team</h4>
+                            </div>
+                            <div class="modal-body" style="color: rebeccapurple" >
+                              <p><ul type="none"> 
+                                  <li>Rohan Pawar</li>
+                                  <li>Onkar Litake</li>
+                                  <li>Durvesh Malpure</li>
+                                  <li>Nikhil Kulkarni</li>
+                              </ul></p>
+                            </div>
+                            <div class="modal-footer" style="text-align: center;background-color: rebeccapurple;"> 
+                              <button type="button" style="background-color: white;color: rebeccapurple;" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+        <div>
+        <div class="container" style="color: white;padding-top: 8vh; padding-bottom: 8vh" id="CTD" >
+                <div class="row" id="ncc"style="margin-bottom: 40px;" >
+                    <div class="col-lg-4 content layout" style=" margin-top: 0px;text-align: center;" >
+                        <img style="margin-left: auto;margin-right: auto;" src="./images/logo/NCC.png">
+                    </div>
+                    <div class="col-lg-8 " style="margin-top: 0px;">
+                        <h2 style="color: white;font-size: 50px;padding-left: auto;padding-right: auto;text-align: center;">National Computing Contest</h2>
+                       <!-- class="description" -->
+                        <p  id="mob" class="description">Here's an opportunity to dive into the great depths of competitive coding!
+                            PICT IEEE Student Branch brings to you the  National Computing Contest(NCC).
+                            NCC is a platform where you can not only sharpen your problem solving ability but also showcase your programming skills.
+                            So, get ready to code, compile and run your C/C++ code, to stay ahead of the time as well as your friends.
+                            See you on the leaderboard!
+                            <br>
+                            Date: 27th February, 2020.
+                            <br>
+                            Registration Fee:<br>
+                            Participate in a team of two.<br>
+                            IEEE Members: ₹50/-<br>
+                            Non-IEEE Members: ₹100/-
+                            Contact: <br>
+                            Tanmay Pardesi: +91 9922704483 <br>
+                            Rushikesh Deshpande: +91 9370896574</p>
+                            <div id="mod">
+                              <button type="button" style="background-color: rebeccapurple"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Team Members</button>
+                            </div>
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal2" role="dialog">
+                        <div class="modal-dialog"> 
+                          <!-- Modal content-->
+                          <div class="modal-content" style="padding: 0px;">
+                            <div class="modal-header" style="background-color: rebeccapurple;">
+                              <h4 class="modal-title">NCC team</h4>
+                            </div>
+                            <div class="modal-body" style="color:rebeccapurple">
+                              <p><ul type="none"> 
+                                  <li>Sanket Mundada</li>
+                                  <li>Sanket Langde</li>
+                                  <li>Anish Koulgi</li>
+                                  <li>Gaurav Ghati</li>
+                                  <li>Aditi Srivastava</li>
+                                  <li>Nimish Dodlani</li>
+                                  <li>Aniket Kulkarni</li>
+                                  <li>Tanmay Pardeshi</li>
+                                  <li>Pranjal Newalkar</li>
+                              </ul></p>
+                            </div>
+                            <div class="modal-footer" style="text-align: center;background-color: rebeccapurple;">
+              
+                              <button  type="button" style="background-color: white;color: rebeccapurple;" class="btn btn-default" data-dismiss="modal">Close</button>
+                            
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                    </div>
+                    </div>
+        </div>
+    </div>
+   <div>
+        <div class="container" style="color: white;" id="CTD" >
+                   
+                <div class="row" id="nth"style="margin-top: 0px;">
+                    <div class="col-lg-4 content layout" style="margin-top: 50px;text-align: center;">
+                        <img style="margin-left: auto;margin-right: auto;" src="./images/logo/NTH.png">
+                    </div>
+                    <div class="col-lg-8" style="margin-top: 0px;" >
+                        <h2 style="color: white;margin-left: auto;margin-right: auto;font-size: 50px;text-align: center;">Network Treasure Hunt</h2>
+                        <!-- <div class="title" style="color:white" ><h1>NTH</h1></div>-->
+                        <p id="mob" class="description">Network Treasure Hunt is an online cryptic hunt played worldwide.
+                            Don't just see, observe! Follow the trails of clues you have and piece together every bit of the puzzle.
+                            You can use every tool at your disposal. Just Google will not be enough to get you through this brain racking experience. 
+                            <br>
+                            Strive to get your name on top of the leaderboard and win exciting prizes. Don't forget to be a part of this nail-biting online contest.
+                            The questions will surely leave you bewildered.
+                            <br>
+                            The game is on!
+                            <br>
+                            Date: 28th February, 2020 <br>
+                            Time: 9PM    <br>
+                            Contact: <br>
+                            Garvita Jain: +91 89895 53238 <br>
+                            Shubham Chorage: +91 96579 79483
+                        </p>
+                         <div id="mod">
+                          <button type="button" style="background-color: rebeccapurple" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Team Members</button>
+                        </div>
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal3" role="dialog">
+                        <div class="modal-dialog"> 
+                          <!-- Modal content-->
+                          <div class="modal-content" style="padding: 0px;">
+                            <div class="modal-header" style="background-color: rebeccapurple;">
+                              <h4 class="modal-title">NTH team</h4>
+                            </div>
+                            <div class="modal-body" style="color: rebeccapurple">
+                              <p><ul type="none">
+                                  <li>Anurag Shankar</li>
+                                  <li>Shubham Chorage</li>
+                                  <li>Garvita Jain</li>
+                                  <li>Prajwal Patankar</li>
+                                  <li>Krisha Bhambani</li>
+                              </ul></p>
+                            </div>
+                            <div class="modal-footer" style="text-align: center; background-color: rebeccapurple;"> 
+                              <button type="button" style="background-color: white;color: rebeccapurple;" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+              </div>  
+          </div>
+    
+    <div>
+        <div class="container" style="color: white;padding-top: 8vh; padding-bottom: 8vh" id="CTD" >
+                   
+                <div class="row" id="nth"style="margin-bottom: 40px;">
+                    <div class="col-lg-4 content layout" style="margin-top: 50px;text-align: center;">
+                        <img style="margin-left: auto;margin-right: auto;" src="./images/logo/InQUIZitive.png">
+                    </div>
+                    <div class="col-lg-8">
+                        <h2 style="color: white;margin-left: auto;margin-right: auto;font-size: 50px;text-align: center;">Inquizitive</h2>
+                        <!-- <div class="title" style="color:white" ><h1>NTH</h1></div>-->
+                        <p id="mob" class="Description"> <br>   Heres the opportunity for all of you to put your minds to test, as you rack your brains in InQuizitive. <br>
+                          Are you ready to tickle your grey cells and take your IQ to the next level by competing in with the best in a battle of wits?
+                          <br>
+                          If you’ve always wondered if you have what it takes to win in a competition that requires only your presence of mind and general awareness, here is your  chance to test it. PISB brings you InQuizitive, a general quiz that will make you rack your brains, with topics ranging from pop culture to current affairs.
+                          <br>
+                          Open for all students of FE, SE, TE and BE, InQuizitive does not have any particular syllabus or criteria for participating. 
+                          So come forward and take part in this classic showdown of general knowledge and trivia!
+                          <br>
+                          Registration fee:   <br>   For IEEE members: Rs 30
+                                  <br>         For Non-IEEE members: Rs 50 <br> Date: 26th February, 2020 <br>
+                          For more details contact: <br>
+                          Asawari Walkade: 8956783613 <br>
+                          Aparna Ranade: 8149841027 
+                        </p>
+                        <div id="mod">
+                          <button type="button" style="background-color: rebeccapurple; border: silver;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Team Members</button>
+                        </div>
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal4" role="dialog">
+                        <div class="modal-dialog"> 
+                          <!-- Modal content-->
+                          <div class="modal-content" style="padding: 0px;">
+                            <div class="modal-header" style="background-color: rebeccapurple;">
+                              <h4 class="modal-title">Inquizitive team</h4>
+                            </div>
+                            <div class="modal-body" style="color: rebeccapurple;">
+                              <p><ul type="none"> 
+                                  <li>Asawari Walkade</li>
+                                  <li>Tanuj Agarwal</li>
+                                  <li>Aparna Ranade</li>
+                              </ul></p>
+                            </div>
+                            <div class="modal-footer" style="text-align: center; background-color: rebeccapurple;"> 
+                              <button type="button" style="background-color: white;color: rebeccapurple;"class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+              </div>  
+          </div>
+  <!--
+    <div style="background-color: #054A91">  
+        <div class="container" style="color: white;padding-top: 8vh; padding-bottom: 8vh" id="CTD" >
+                <div class="row" id="seminar" style="margin-bottom: 40px;">
+                    <div class="col-lg-12">
+                    	
+                        <h2 style="color: white;font-size: 50px;padding-left: auto;padding-right: auto;margin-left: auto;margin-right: auto;text-align: center;">Upcoming Seminars</h2>
+                        <br>
+                        
+                        <p id="mob" class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p id="mob" class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+  -->  
+    ##</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="./js/script.js"></script>
+<script src="./js/scriptjq.js"></script>
+
+</body>
+</html>
