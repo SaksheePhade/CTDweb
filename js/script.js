@@ -12,10 +12,10 @@ new WOW().init();
 		
 			if (scroll >= 10) {
 				header.removeClass('start-style').addClass("scroll-on");
-				header.css('opacity','0.9');
+				header.css('opacity','1');
 			} else {
 				header.removeClass("scroll-on").addClass('start-style');
-				header.css('opacity','0.3')
+				header.css('opacity','0.5')
 			}
 		});
 	});		

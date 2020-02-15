@@ -12,7 +12,7 @@ html {
 }
 /* footer */
 
- 
+
 h3{
  color:white;
  font-size: 25px;
@@ -132,6 +132,9 @@ hr{
   {
      text-align: center;
      margin-bottom: 30px;
+  }
+  #card_1{
+    margin-left:4.166666667%;
   }
   #mod {
     text-align: center;
